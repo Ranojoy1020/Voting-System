@@ -1,0 +1,34 @@
+@import url(boilerplate.css);
+@import url(headerBar.css);
+@import url(footer.css);
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 100vw;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    height: 30vh;
+    width: 30vw;
+    border: none;
+    border-radius: 2.5rem;
+    box-shadow: 0.6rem 0.6rem 1.2rem #acacac, 
+                -0.6rem -0.6rem 1.2rem #fff;
+    transition: all ease-in-out 200ms;
+}
+
+.card:hover{
+    /* background-color: #3498db; */
+    /* color: #fff; */
+    box-shadow: 0.3rem 0.4rem 0.9rem #9e9e9e, 
+                -0.4rem -0.4rem 0.9rem #fff;
+}

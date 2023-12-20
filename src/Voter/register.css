@@ -1,0 +1,17 @@
+@import url(../css/boilerplate.css);
+@import url(../css/headerBar.css);
+@import url(../css/footer.css);
+
+form {
+    height: 70vh;
+    width: 40vw;
+}
+
+input{
+    width: 25vw;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    border: 0.5px rgb(185, 185, 185) solid;
+}
+
+

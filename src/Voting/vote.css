@@ -1,0 +1,61 @@
+@import url(../css/boilerplate.css);
+@import url(../css/headerBar.css);
+@import url(../css/footer.css);
+
+.main {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+table {
+  margin: 1rem 0;
+  width: 35vw;
+  border: solid gray;
+  border-collapse: separate;
+  border-radius: 0.5rem;
+  border-spacing: 0px;
+  table-layout: auto;
+}
+
+table tr th:nth-child(1) {
+  width: 80%;
+}
+
+th,
+td {
+  height: 2.5rem;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+table tr:nth-child(even) {
+  background: #e7e7e7;
+}
+
+table tr:hover {
+  background-color: #3498db;
+}
+
+.categoryTable {
+  text-align: left;
+  padding: 2rem;
+  margin: 2rem;
+  width: max-content;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  box-shadow: #3498db 0px 0px 2rem;
+}
+
+label[for="confirm"] {
+  font-size: 1.2rem;
+}
+
+.submitBtn {
+  font-size: 1.2rem;
+  width: max-content;
+  margin: 1rem 0;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration - College Voting System</title>
+    <link rel="stylesheet" href="register.css" type="text/css" />
+  </head>
+  <body>
+    
+    <div class="header">
+      <div class="title">
+        <img src="../../DYPIU Logo.png" alt="DYPIU Logo" height="80%" width="60%">
+      </div>
+      <nav>
+        <a href="../../index.html">Go To Homepage</a>
+      </nav>
+    </div>
+
+    <form action = "voterRegister.jsp" method="post">
+        <h2>Voter Registration</h2>
+        <input placeholder = "Name" type="text" id="name" name="name" required />
+
+        <input placeholder = "E-mail ID" type="email" id="email" name="email" required />
+
+        <input placeholder = "Password" type="password" id="password" name="password" required />
+
+        <input
+          placeholder = "Confirm Password"
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          required
+        />
+
+        <button type="submit">Register</button>
+      </form>
+      
+    <div class="footer"></div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<div class="header">
+      <div class="title">
+        <img src="../../DYPIU Logo.png" alt="DYPIU Logo" height="80%" width="60%">
+      </div>
+      <nav>
+        <a href="../../index.html">Go To Homepage</a>
+      </nav>
+</div>

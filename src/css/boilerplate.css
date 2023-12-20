@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+  transition: all ease-in-out 100ms;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 2rem;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+}
+
+/* *HTML Form Customization */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+  background-color: #e0e0e0;
+  border-radius: 2.5rem;
+  box-shadow: 0.5rem 0.5rem 2rem #afafaf, 
+              -0.5rem -0.5rem 2rem #fff;
+}
+
+/* *HTML Input Customization */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  position: relative;
+  padding: 0rem 1rem;
+  height: 2.5rem;
+  width: 25vw;
+  background-color: #eeeeee;
+  border: 0.5px rgb(190, 190, 190) solid;
+  border-radius: 0.5rem;
+}
+
+::-webkit-input-placeholder {
+  text-align: left;
+  font-size: 1rem;
+  color: #696969;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+}
+
+input[type="checkbox"] {
+  margin: 1rem 0.5rem;
+  transform: scale(1.5);
+}
+
+/* *HTML Button Customization */
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  height: 2.5rem;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: 0.2rem 0.2rem 1rem #a2a2a2, 
+              -0.2rem -0.2rem 1rem #fff;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+/* *ScrollBar Customization */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background: #858585;
+  border: 0.05px black solid;
+  border-radius: 2rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(78, 78, 78);
+}

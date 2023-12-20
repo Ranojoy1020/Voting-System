@@ -1,0 +1,58 @@
+@import url(src/css/boilerplate.css);
+@import url(src/css/headerBar.css);
+@import url(src/css/footer.css);
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+#myBG{
+    height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.upcoming, .howTo{
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.upcoming h2, .howTo h2{
+    text-decoration: underline;
+}
+
+.howTo ol li{
+    text-align: left;
+    margin: 2rem;
+}
+
+.card{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color:#383838;
+    height: 50vh;
+    width: 40vw;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.9;
+    border: 0.2px #555 solid;
+    border-radius: 1rem;
+    text-shadow: 0 0 0.5px #fff;
+    /* box-shadow: 0.5rem 0.5rem 0.5rem #909090; */
+}
+
+
+a {
+    color: #fff;
+}

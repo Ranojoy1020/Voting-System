@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #3498db;
+  color: #fff;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  flex-basis: 60%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  height: 10vh;
+  width: 15vw;
+  padding: 1.5rem 0.5rem;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  background: orangered;
+  z-index: -1;
+  transition: transform 100ms;
+}
+
+nav a:hover::after {
+  transform: scaleY(1);
+}

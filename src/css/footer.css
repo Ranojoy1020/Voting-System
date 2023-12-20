@@ -1,0 +1,10 @@
+.footer::after {
+    content: '\00a9  2023 College Voting System';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+}

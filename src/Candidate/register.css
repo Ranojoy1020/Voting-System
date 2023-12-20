@@ -1,0 +1,46 @@
+@import url(../css/boilerplate.css);
+@import url(../css/headerBar.css);
+@import url(../css/footer.css);
+
+body{
+  height: 100%;
+}
+
+form {
+  height: 110vh;
+  width: 50vw;
+  margin: 2rem;
+}
+
+form p:first-of-type{
+  margin: 1rem 0rem;
+}
+
+.selectCategory{
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin: 0rem 1rem;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 600px) {
+  form {
+    max-width: 100%;
+  }
+}
